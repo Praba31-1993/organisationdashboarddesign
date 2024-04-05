@@ -3,6 +3,8 @@
 }
 main{
   padding: 20px;
+  width: 100%;
+  background: #e8eff9;
 }
 .sidebar{
   background: #1b1b29;
@@ -13,8 +15,8 @@ main{
 .top_section{
   display: flex;
   align-items: center;
-  padding: 20px;
   justify-content: space-between;
+  cursor: pointer;
 }
 .logo{
   font-size: 16px;
@@ -43,5 +45,11 @@ main{
   color: white;
 }
 .icon, .link_text{
-  font-size: 16px;
+  font-size: 14px;
+}
+.sidebarText{
+  text-transform:'capitalize';
+  font-size:'12px';
+  align-items:'center'; 
+  margin-top:'4px' 
 }
